@@ -3,7 +3,6 @@ import styled from "styled-components"
 
 import Layout from "../components/Layout/Layout"
 import Header from "../components/Header/Header"
-import FeaturedImage from "../components/Header/FeaturedImage"
 import Footer from "../components/Footer/Footer"
 import SectionTitle from "../components/Helpers/SectionTitle"
 import WeddingPartyProfile from "../components/WeddingPartyProfile/WeddingPartyProfile"
@@ -23,77 +22,90 @@ export default function Index() {
   return (
     <Layout>
       <Header />
-      <FeaturedImage />
       <SectionTitle title="Wedding Party" />
 
       <HisHerContainer>
         <WeddingPartyProfile
-          name="Pat Curran"
-          photo="https://www.cobdoglaps.sa.edu.au/wp-content/uploads/2017/11/placeholder-profile-sq.jpg"
+          name="Patrick Curran"
+          photo="https://res.cloudinary.com/drzgzthur/image/upload/v1599522172/MandJ/wedding-party/pat-optimized.jpg"
           role="Best Man"
           columnTitle="His"
         />
         <WeddingPartyProfile
           name="Kristy Marlowe"
-          photo="https://thehuboncanal.org/wp-content/uploads/2016/11/FEMALE-PERSON-PLACEHOLDER.jpg"
+          photo="https://res.cloudinary.com/drzgzthur/image/upload/v1599489813/MandJ/wedding-party/kristy-optimized.jpg"
           role="Maid of Honor"
           columnTitle="Hers"
         />
         <WeddingPartyProfile
           name="Graham Gaspar"
-          photo="https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-person-gray-photo-placeholder-man-t-shirt-white-background-134696022.jpg"
+          photo="https://res.cloudinary.com/drzgzthur/image/upload/v1599522738/MandJ/wedding-party/graham-optimized.jpg"
+          role="Groomsman"
         />
         <WeddingPartyProfile
           name="Marina Nedeljkovic"
-          photo="https://cdrd.edu.np/wp-content/uploads/2019/05/person-gray-photo-placeholder-woman-vector-22964655.jpg"
+          photo="https://res.cloudinary.com/drzgzthur/image/upload/v1599523214/MandJ/wedding-party/marina-optimized.jpg"
+          role="Bridesmaid"
         />
         <WeddingPartyProfile
           name="Justin Vanportfliet"
-          photo="https://www.cobdoglaps.sa.edu.au/wp-content/uploads/2017/11/placeholder-profile-sq.jpg"
-        />
-        <WeddingPartyProfile
-          name="Kalene Griffin"
-          photo="https://thehuboncanal.org/wp-content/uploads/2016/11/FEMALE-PERSON-PLACEHOLDER.jpg"
-        />
-        <WeddingPartyProfile
-          name="Mike Shi"
-          photo="https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-person-gray-photo-placeholder-man-t-shirt-white-background-134696022.jpg"
-        />
-        <WeddingPartyProfile
-          name="Rachel Levy"
-          photo="https://cdrd.edu.np/wp-content/uploads/2019/05/person-gray-photo-placeholder-woman-vector-22964655.jpg"
-        />
-        <WeddingPartyProfile
-          name="Jeff DeCristofaro"
-          photo="https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-person-gray-photo-placeholder-man-t-shirt-white-background-134696022.jpg"
-        />
-        <WeddingPartyProfile
-          name="Hayley Grove"
-          photo="https://cdrd.edu.np/wp-content/uploads/2019/05/person-gray-photo-placeholder-woman-vector-22964655.jpg"
-        />
-        <WeddingPartyProfile
-          name="Brett Wheeler"
-          photo="https://www.cobdoglaps.sa.edu.au/wp-content/uploads/2017/11/placeholder-profile-sq.jpg"
+          photo="https://res.cloudinary.com/drzgzthur/image/upload/v1599490531/MandJ/wedding-party/justin-optimized.jpg"
+          role="Groomsman"
         />
         <WeddingPartyProfile
           name="Kayla Gaspar"
-          photo="https://thehuboncanal.org/wp-content/uploads/2016/11/FEMALE-PERSON-PLACEHOLDER.jpg"
+          photo="https://res.cloudinary.com/drzgzthur/image/upload/v1599679400/MandJ/wedding-party/kayla-optimized.jpg"
+          role="Bridesmaid"
         />
         <WeddingPartyProfile
-          name="Jeffery Marlowe"
-          photo="https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-person-gray-photo-placeholder-man-t-shirt-white-background-134696022.jpg"
+          name="Jeffrey Marlowe"
+          photo="https://res.cloudinary.com/drzgzthur/image/upload/v1599491788/MandJ/wedding-party/jeff-m-optimized.jpg"
+          role="Groomsman"
         />
         <WeddingPartyProfile
           name="Brianna Murphy"
-          photo="https://cdrd.edu.np/wp-content/uploads/2019/05/person-gray-photo-placeholder-woman-vector-22964655.jpg"
+          photo="https://res.cloudinary.com/drzgzthur/image/upload/v1599492428/MandJ/wedding-party/brianna-optimized.jpg"
+          role="Bridesmaid"
         />
         <WeddingPartyProfile
           name="Kevin Marlowe"
-          photo="https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-person-gray-photo-placeholder-man-t-shirt-white-background-134696022.jpg"
+          photo="https://res.cloudinary.com/drzgzthur/image/upload/v1599489739/MandJ/wedding-party/kevin-optimized.jpg"
+          role="Groomsman"
         />
         <WeddingPartyProfile
           name="Amanda Murphy"
-          photo="https://cdrd.edu.np/wp-content/uploads/2019/05/person-gray-photo-placeholder-woman-vector-22964655.jpg"
+          photo="https://res.cloudinary.com/drzgzthur/image/upload/v1599489548/MandJ/wedding-party/amanda-optimized.jpg"
+          role="Bridesmaid"
+        />
+        <WeddingPartyProfile
+          name="Michael Shi"
+          photo="https://res.cloudinary.com/drzgzthur/image/upload/v1599520823/MandJ/wedding-party/mike-optimized.jpg"
+          role="Groomsman"
+        />
+        <WeddingPartyProfile
+          name="Kalene Griffin"
+          photo="https://res.cloudinary.com/drzgzthur/image/upload/v1599524542/MandJ/wedding-party/kalene-optimized.jpg"
+          role="Bridesmaid"
+        />
+        <WeddingPartyProfile
+          name="Jeffrey DeCristofaro"
+          photo="https://res.cloudinary.com/drzgzthur/image/upload/v1600038239/MandJ/wedding-party/jeff-optimized.jpg"
+          role="Groomsman"
+        />
+        <WeddingPartyProfile
+          name="Rachel Levy"
+          photo="https://res.cloudinary.com/drzgzthur/image/upload/v1599522599/MandJ/wedding-party/rachel-optimized.jpg"
+          role="Bridesmaid"
+        />
+        <WeddingPartyProfile
+          name="Brett Wheeler"
+          photo="https://res.cloudinary.com/drzgzthur/image/upload/v1599522086/MandJ/wedding-party/brett-optimized.jpg"
+          role="Groomsman"
+        />
+        <WeddingPartyProfile
+          name="Hayley Grove"
+          photo="https://res.cloudinary.com/drzgzthur/image/upload/v1599490030/MandJ/wedding-party/hayley-optimized.jpg"
+          role="Bridesmaid"
         />
       </HisHerContainer>
       <Footer />

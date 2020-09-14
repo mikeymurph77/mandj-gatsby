@@ -19,6 +19,8 @@ const LinkRow = styled.div`
 const NavLink = styled.p`
   margin: ${rhythm(1)} ${rhythm(2)} 0;
   text-decoration: none;
+  cursor: pointer;
+  color: #3c6492;
 `
 
 const AccommodationsContent = styled.div`
@@ -26,17 +28,20 @@ const AccommodationsContent = styled.div`
   margin-left: 15px;
 `;
 
+const AttractionTitle = styled.div`
+  display: flex;
+  justify-content: center;
+  margin-top: ${rhythm(2)};
+`
+
 const onNavClickHandler = (anchor) => {
   navigate(anchor);
 }
 
 export default function Accommodations() {
-
-
   return (
     <Layout>
       <Header />
-      <FeaturedImage />
       <SectionTitle title="Accommodations" />
 
       {!isMobile && (
@@ -49,38 +54,7 @@ export default function Accommodations() {
 
       <AccommodationsContent>
 
-        <SectionTitle title="Travel" anchor="travel" />
-
-        <div style={{ textAlign: "center" }}>
-          <img
-            src="https://lh3.googleusercontent.com/proxy/wgoHgeyLiolp2x4orF1mjT0Ut7dEtziF9fip-Zivd5PqNqqnkJB1pWOzUI4Z3Wcp72gz31A9hE5ssleUU3Vr8PagsPU6Cwe9"
-            alt=""
-          />
-        </div>
-
-        <div>
-          <p>
-            Et suspendisse neque id placerat nec vivamus adipiscing, vitae amet
-            facilisis malesuada elit turpis platea, quis aliquam molestie dictum
-            cum scelerisque. Aptent sollicitudin dapibus eleifend taciti ridiculus
-            nisl auctor, enim tortor torquent per phasellus nam at tempus, sociis
-            eu elit risus dis nunc. Convallis parturient curae id facilisis etiam
-            risus laoreet mollis nisl, consequat morbi enim habitasse cursus
-            pretium consectetur fames inceptos lobortis, sociis facilisi fermentum
-            malesuada dignissim mus arcu est.
-          </p>
-
-          <p>
-            Condimentum turpis tempus primis nibh massa lacinia consectetur
-            vestibulum purus, lectus felis iaculis quam tortor lorem pharetra
-            laoreet placerat, habitant aliquet aenean eu vehicula ad suspendisse
-            scelerisque. Potenti cum fringilla nullam dis hendrerit ultricies
-            fermentum ornare consequat morbi mauris, enim sociis natoque elementum
-            parturient habitasse turpis quisque et.
-          </p>
-        </div>
-
-        <SectionTitle title="Hotels" anchor="hotels" />
+        <SectionTitle title="Hotel" anchor="hotels" />
 
         <div style={{ textAlign: "center" }}>
           <img
@@ -92,24 +66,63 @@ export default function Accommodations() {
 
         <div>
           <p>
-            Parturient amet sit accumsan turpis donec quam, vulputate euismod
-            ultricies nascetur id pulvinar nulla, consectetur nunc ornare commodo
-            class.
+            Lodging will be held at the <a href="https://www.marriott.com/events/start.mi?id=1599574980260&key=GRP" rel="nofollow" target="_blank">Boston Marriot Peabody</a> located at <a href="https://www.google.com/maps/place/8A+Centennial+Dr,+Peabody,+MA+01960/@42.5244553,-70.9595023,17z/data=!3m1!4b1!4m5!3m4!1s0x89e312ff817aa5e9:0xcc2a24b0b569fa4a!8m2!3d42.5244553!4d-70.9573136" traget="_blank" rel="nofollow">8A Centennial Dr, Peabody, MA 01960.</a>
           </p>
-
           <p>
-            Iaculis euismod habitant nascetur auctor ac potenti venenatis dapibus
-            primis, ut sociis magna sed dictum quisque conubia fusce ornare
-            magnis, adipiscing faucibus facilisis augue semper dui malesuada
-            ultrices. Proin ante neque porttitor placerat praesent rhoncus lectus
-            dignissim odio, pharetra litora taciti montes accumsan sodales dui
-            nibh suscipit sollicitudin, consectetur ipsum primis at feugiat
-            tristique pretium dapibus.
+            If you plan to book a room, please do so <strong>before August 13th</strong> to recieve the wedding discount price.
           </p>
+          <p>This is the hotel where the wedding party will be staying. Join us here for the after party!</p>
+
+          <div>
+              <p>If you're calling to book, please book under <strong>"Murphy-Marlowe Wedding Block"</strong></p>
+            </div>
+
+          <LinkRow>
+            <p>
+              <a href="https://www.marriott.com/events/start.mi?id=1599574980260&key=GRP" rel="nofollow" target="_blank">
+                Book Here for Wedding Discount Rate
+              </a>
+            </p>
+          </LinkRow>
         </div>
 
         <SectionTitle title="Things To Do" anchor="things-to-do" />
 
+        <AttractionTitle>
+          <h2>Salem Witch Museum</h2>
+        </AttractionTitle>
+
+        <div style={{ textAlign: "center" }}>
+          <img
+            src="https://i.pinimg.com/originals/c3/d3/52/c3d35268bc033fa0fec170c087334ce7.jpg"
+            alt=""
+            style={{ maxHeight: "300px" }}
+          />
+        </div>
+
+        <p>
+          We've visited this museum/show a few times and still find it super interesting and captivating. This theatre style narrated show describes the Salem Witch Trials. They run shows every half hour and it's a great way to kick into that Fall/Halloween spirit. The show ends with a unique gift shop and has a little something for everyone.
+        </p>
+
+        <AttractionTitle>
+          <h2>Howling Wolf Taqueria</h2>
+        </AttractionTitle>
+
+        <div style={{ textAlign: "center" }}>
+          <img
+            src="https://res.cloudinary.com/drzgzthur/image/upload/v1600014967/MandJ/wolf.png"
+            alt=""
+            style={{ maxHeight: "300px" }}
+          />
+        </div>
+
+        <p>
+          We stumbled upon this restaurant on one of our annual trips to Salem and fell-in-love!! This place is an absolute gem. Described as a scratch kitchen, all of their ingredients are made daily. Its authentic Mexican cuisine with a few twists for starters. <em>Spoiler alert</em>: fried avocados — don't knock it til' you try it! Wide array of drinks and a full-length bar if you just want to stop in for drinks. Also, live music? Yup. What more could you want?
+        </p>
+
+        <AttractionTitle>
+          <h2>Clam Box of Ipswich</h2>
+        </AttractionTitle>
         <div>
           <div style={{ textAlign: "center" }}>
             <img
@@ -120,10 +133,12 @@ export default function Accommodations() {
           </div>
 
           <p>
-            Scelerisque parturient augue convallis senectus vitae consequat eros
-            sollicitudin elementum, ridiculus vivamus justo porta primis mauris
-            tincidunt potenti.
+            Kick off the end of summer with everyone's seafood favorites. The line moves quickly and they have a massive inside for seating.  A classic landmark with over 70 years of running the business.
           </p>
+
+          <AttractionTitle>
+            <h2>Crane Beach</h2>
+          </AttractionTitle>
 
           <div style={{ textAlign: "center" }}>
             <img
@@ -134,25 +149,22 @@ export default function Accommodations() {
           </div>
 
           <p>
-            Himenaeos velit proin penatibus est feugiat id nam, ultrices justo
-            eros arcu tempus ultricies conubia elementum, ligula aliquam platea
-            sagittis fames hendrerit. Erat nullam interdum ullamcorper nisl dui
-            congue cubilia lectus, nisi bibendum natoque leo elit maecenas
-            vulputate aliquam, rutrum adipiscing sodales pellentesque nascetur
-            sociis potenti.
+            This is an incredible beach! Soft sand, clear water, dunes, ample parking, and a small shop to buy sandwiches, snacks, and beverages. What a great way to relax and kick your feet up after a wedding!
           </p>
+        </div>
 
-          <div style={{ textAlign: "center" }}>
-            <img
-              src="https://i.pinimg.com/originals/c3/d3/52/c3d35268bc033fa0fec170c087334ce7.jpg"
-              alt=""
-              style={{ maxHeight: "300px" }}
-            />
-          </div>
+        <SectionTitle title="Travel" anchor="travel" />
 
+        <div style={{ textAlign: "center" }}>
+          <img
+            src="https://lh3.googleusercontent.com/proxy/wgoHgeyLiolp2x4orF1mjT0Ut7dEtziF9fip-Zivd5PqNqqnkJB1pWOzUI4Z3Wcp72gz31A9hE5ssleUU3Vr8PagsPU6Cwe9"
+            alt=""
+          />
+        </div>
+
+        <div>
           <p>
-            Litora habitasse turpis vehicula montes dolor erat, curae penatibus
-            torquent integer cum est urna, sed quisque velit etiam suscipit.
+            More details to come, but shuttles will be provided between Boston Marriot Peabody Hotel and Danversport. Please note that there will be no provided transportation to or from the church.
           </p>
         </div>
       </AccommodationsContent>

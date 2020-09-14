@@ -4,7 +4,6 @@ import { rhythm } from "../utils/typography"
 
 import Layout from "../components/Layout/Layout"
 import Header from "../components/Header/Header"
-import FeaturedImage from "../components/Header/FeaturedImage"
 import Footer from "../components/Footer/Footer"
 import SectionTitle from "../components/Helpers/SectionTitle"
 import RegistryItem from "../components/RegistryItem/RegistryItem"
@@ -20,7 +19,6 @@ export default function Index() {
   return (
     <Layout>
       <Header />
-      <FeaturedImage />
       <SectionTitle title="Registry" />
 
       <RegistryRow>
