@@ -7,6 +7,7 @@ import Header from "../components/Header/Header"
 import Footer from "../components/Footer/Footer"
 import SectionTitle from "../components/Helpers/SectionTitle"
 import RegistryItem from "../components/RegistryItem/RegistryItem"
+import CenteredDiv from "../components/Helpers/CenteredDiv"
 
 const RegistryRow = styled.div`
   display: flex;
@@ -21,7 +22,10 @@ export default function Index() {
       <Header />
       <SectionTitle title="Registry" />
 
-      <RegistryRow>
+      <CenteredDiv>
+        <h2>Coming Soon!</h2>
+      </CenteredDiv>
+      {/* <RegistryRow>
         <RegistryItem
           store="Crate & Barrel"
           link="https://www.crateandbarrel.com/gift-registry/"
@@ -37,7 +41,7 @@ export default function Index() {
           link="https://www.homedepot.com/collection/home-decor/perfect-registry-picks"
           logoUrl="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/TheHomeDepot.svg/227px-TheHomeDepot.svg.png"
         />
-      </RegistryRow>
+      </RegistryRow> */}
       <Footer />
     </Layout>
   )

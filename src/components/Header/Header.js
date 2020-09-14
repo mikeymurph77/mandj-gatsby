@@ -60,11 +60,12 @@ export default function Header() {
 
       <HeaderLink to={'/'}>
         <HeaderContainer>
-          <Title>
+          {/* <Title>
             <span style={{ color: "#013f7f" }}>Jillian</span>{" "}
             <span style={{ color: "#b02e42" }}>&</span>{" "}
-            <span style={{ color: "#013f7f" }}>Michael</span>
-          </Title>
+            <span style={{ color: "#013f7f" }}> Michael</span>
+          </Title> */}
+          <img src="https://res.cloudinary.com/drzgzthur/image/upload/v1600102359/MandJ/Jillian_Michael.png" alt="Jillian & Michael" />
           <DateLocation>September 3, 2021 &bull; Danvers, MA</DateLocation>
           <Countdown />
         </HeaderContainer>
