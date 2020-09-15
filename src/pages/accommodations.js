@@ -163,7 +163,7 @@ export default function Accommodations() {
 
         <div>
           <p>
-            More details to come, but shuttles will be provided between Boston Marriott Peabody Hotel and Danversport. Please note that there will be no provided transportation to or from the church.
+            More details to come, but shuttles will be provided between Boston Marriott Peabody Hotel and Danversport. Please note that there will not be transportation to or from the church.
           </p>
         </div>
       </AccommodationsContent>
