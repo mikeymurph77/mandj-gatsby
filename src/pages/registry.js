@@ -23,7 +23,7 @@ export default function Index() {
       <SectionTitle title="Registry" />
 
       <CenteredDiv>
-        <h2>Coming Soon!</h2>
+        <img src="https://res.cloudinary.com/drzgzthur/image/upload/v1600187009/MandJ/comingsoon-optimized.png" alt="Coming Soon"/>
       </CenteredDiv>
       {/* <RegistryRow>
         <RegistryItem

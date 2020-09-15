@@ -3,10 +3,9 @@ require('dotenv').config();
 module.exports = {
   siteMetadata: {
     title: `Michael & Jillian`,
-    description: `A personal portfolio site for the one and only Mike Murphy`,
+    description: `Michael and Jillian's Wedding Site`,
     siteUrl: `https://michaelandjillian.com/`,
   },
-
   plugins: [
     {
       resolve: `gatsby-plugin-typography`,
@@ -35,6 +34,18 @@ module.exports = {
         prefix: `MandJ/`,
         maxResults: 1000
       }
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "Michael and Jillian",
+        short_name: "Michael&Jillian",
+        start_url: "/",
+        background_color: "#3c6492",
+        theme_color: "#3c6492",
+        display: "standalone",
+        icon: "src/images/favicon-32x32.png"
+      },
     },
     `simple-react-lightbox`
   ],

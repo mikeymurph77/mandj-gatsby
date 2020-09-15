@@ -6,7 +6,6 @@ import { navigate } from '@reach/router';
 
 import Layout from "../components/Layout/Layout"
 import Header from "../components/Header/Header"
-import FeaturedImage from "../components/Header/FeaturedImage"
 import Footer from "../components/Footer/Footer"
 import SectionTitle from "../components/Helpers/SectionTitle"
 
@@ -66,12 +65,12 @@ export default function Accommodations() {
 
         <div>
           <p>
-            Lodging will be held at the <a href="https://www.marriott.com/events/start.mi?id=1599574980260&key=GRP" rel="nofollow" target="_blank">Boston Marriot Peabody</a> located at <a href="https://www.google.com/maps/place/8A+Centennial+Dr,+Peabody,+MA+01960/@42.5244553,-70.9595023,17z/data=!3m1!4b1!4m5!3m4!1s0x89e312ff817aa5e9:0xcc2a24b0b569fa4a!8m2!3d42.5244553!4d-70.9573136" traget="_blank" rel="nofollow">8A Centennial Dr, Peabody, MA 01960.</a>
+            Lodging will be held at the <a href="https://www.marriott.com/events/start.mi?id=1599574980260&key=GRP" target="_blank" rel="noreferrer">Boston Marriott Peabody</a> located at <a href="https://www.google.com/maps/place/8A+Centennial+Dr,+Peabody,+MA+01960/@42.5244553,-70.9595023,17z/data=!3m1!4b1!4m5!3m4!1s0x89e312ff817aa5e9:0xcc2a24b0b569fa4a!8m2!3d42.5244553!4d-70.9573136" traget="_blank" rel="noreferrer">8A Centennial Dr, Peabody, MA 01960.</a>
           </p>
           <p>
-            If you plan to book a room, please do so <strong>before August 13th</strong> to recieve the wedding discount price.
+            If you plan to book a room, please do so <strong>before August 13th</strong> to receive the wedding discount price.
           </p>
-          <p>This is the hotel where the wedding party will be staying. Join us here for the after party!</p>
+          <p>This is the hotel where the wedding party will be staying. Join us here for the after-party!</p>
 
           <div>
               <p>If you're calling to book, please book under <strong>"Murphy-Marlowe Wedding Block"</strong></p>
@@ -79,7 +78,7 @@ export default function Accommodations() {
 
           <LinkRow>
             <p>
-              <a href="https://www.marriott.com/events/start.mi?id=1599574980260&key=GRP" rel="nofollow" target="_blank">
+              <a href="https://www.marriott.com/events/start.mi?id=1599574980260&key=GRP" target="_blank" rel="noreferrer">
                 Book Here for Wedding Discount Rate
               </a>
             </p>
@@ -101,7 +100,7 @@ export default function Accommodations() {
         </div>
 
         <p>
-          We've visited this museum/show a few times and still find it super interesting and captivating. This theatre style narrated show describes the Salem Witch Trials. They run shows every half hour and it's a great way to kick into that Fall/Halloween spirit. The show ends with a unique gift shop and has a little something for everyone.
+          We've visited this museum/show a few times and still find it super interesting and captivating. This theatre style, narrated presentation, describes the events that led to the infamous Salem Witch Trials of 1692. They run shows every half hour, and it's a great way to jumpstart your Fall/Halloween season. The show ends with a unique gift shop and has a little something for everyone.
         </p>
 
         <AttractionTitle>
@@ -117,7 +116,7 @@ export default function Accommodations() {
         </div>
 
         <p>
-          We stumbled upon this restaurant on one of our annual trips to Salem and fell-in-love!! This place is an absolute gem. Described as a scratch kitchen, all of their ingredients are made daily. Its authentic Mexican cuisine with a few twists for starters. <em>Spoiler alert</em>: fried avocados — don't knock it til' you try it! Wide array of drinks and a full-length bar if you just want to stop in for drinks. Also, live music? Yup. What more could you want?
+          We stumbled upon this restaurant on one of our annual trips to Salem and fell-in-love!! This place is an absolute gem. The Howling Wolf is best described as a scratch kitchen, which means all of their ingredients are made daily. Its authentic Mexican cuisine includes a few twists on some favorites. <em>Our Favorite</em>: fried avocados — don't knock it til' you try it! With a wide array of drinks and a full-length bar, this is an excellent place if you want to stop in for drinks, apps, or a full meal. Also, live music? Yup. What more could you want?
         </p>
 
         <AttractionTitle>
@@ -133,7 +132,7 @@ export default function Accommodations() {
           </div>
 
           <p>
-            Kick off the end of summer with everyone's seafood favorites. The line moves quickly and they have a massive inside for seating.  A classic landmark with over 70 years of running the business.
+            Closeout the end of summer with some seafood favorites at The Clam Box! The line moves quickly, and they have plenty of seating available inside. It has been a classic landmark with over 70 years of running the business.
           </p>
 
           <AttractionTitle>
@@ -164,7 +163,7 @@ export default function Accommodations() {
 
         <div>
           <p>
-            More details to come, but shuttles will be provided between Boston Marriot Peabody Hotel and Danversport. Please note that there will be no provided transportation to or from the church.
+            More details to come, but shuttles will be provided between Boston Marriott Peabody Hotel and Danversport. Please note that there will be no provided transportation to or from the church.
           </p>
         </div>
       </AccommodationsContent>
