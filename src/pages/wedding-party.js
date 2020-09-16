@@ -93,7 +93,7 @@ export default function Index() {
           role="Groomsman"
         />
         <WeddingPartyProfile
-          name="Rachel Levy"
+          name="Rachael Levy"
           photo="https://res.cloudinary.com/drzgzthur/image/upload/v1599522599/MandJ/wedding-party/rachel-optimized.jpg"
           role="Bridesmaid"
         />
