@@ -93,7 +93,7 @@ export default function Accommodations() {
 
         <div style={{ textAlign: "center" }}>
           <img
-            src="https://i.pinimg.com/originals/c3/d3/52/c3d35268bc033fa0fec170c087334ce7.jpg"
+            src="https://res.cloudinary.com/drzgzthur/image/upload/v1600276086/MandJ/we-love-salem.png"
             alt=""
             style={{ maxHeight: "300px" }}
           />
