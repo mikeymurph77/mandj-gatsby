@@ -17,7 +17,11 @@ const RegistryRow = styled.div`
 `
 
 const CommingSoon = styled.img`
-  max-width: 400px;
+  max-width: 200px;
+
+  @media screen and (min-width: 601px) {
+    max-width: 400px;
+  }
 `;
 
 export default function Index() {
