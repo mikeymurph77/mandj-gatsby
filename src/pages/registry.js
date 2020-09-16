@@ -16,6 +16,10 @@ const RegistryRow = styled.div`
   margin: ${rhythm(1)} ${rhythm(1)} ${rhythm(5)};
 `
 
+const CommingSoon = styled.img`
+  max-width: 400px;
+`;
+
 export default function Index() {
   return (
     <Layout>
@@ -23,7 +27,7 @@ export default function Index() {
       <SectionTitle title="Registry" />
 
       <CenteredDiv>
-        <img src="https://res.cloudinary.com/drzgzthur/image/upload/v1600276165/MandJ/Coming-Soon-image.jpg" alt="Coming Soon"/>
+        <CommingSoon src="https://res.cloudinary.com/drzgzthur/image/upload/v1600276165/MandJ/Coming-Soon-image.jpg" alt="Coming Soon" />
       </CenteredDiv>
       {/* <RegistryRow>
         <RegistryItem
