@@ -19,16 +19,6 @@ const HeaderLink = styled(Link)`
 const HeaderContainer = styled.div`
   text-align: center;
 `
-const Title = styled.h1`
-  font-size: ${rhythm(2)};
-  font-family: 'Mr De Haviland', cursive;
-  line-wrap: none;
-  font-weight: 500;
-
-  @media screen and (min-width: 601px) {
-    font-size: ${rhythm(6)};
-  }
-`
 
 const DateLocation = styled.h2`
   font-size: ${rhythm(1)};
@@ -60,11 +50,6 @@ export default function Header() {
 
       <HeaderLink to={'/'}>
         <HeaderContainer>
-          {/* <Title>
-            <span style={{ color: "#013f7f" }}>Jillian</span>{" "}
-            <span style={{ color: "#b02e42" }}>&</span>{" "}
-            <span style={{ color: "#013f7f" }}> Michael</span>
-          </Title> */}
           <img src="https://res.cloudinary.com/drzgzthur/image/upload/v1600102359/MandJ/Jillian_Michael.png" alt="Jillian & Michael" />
           <DateLocation>September 3, 2021 &bull; Danvers, MA</DateLocation>
           <Countdown />

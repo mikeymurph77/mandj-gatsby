@@ -23,7 +23,7 @@ export default function RegistryItem({ store, logoUrl, link }) {
     <RegistryItemContainer>
       <StoreIcon src={logoUrl} />
       <h3>{store}</h3>
-      <a href={link} target="_blank">View Registry</a>
+      <a href={link} target="_blank" rel="noreferrer">View Registry</a>
     </RegistryItemContainer>
   )
 }

@@ -14,16 +14,18 @@ module.exports = {
       },
     },
     `gatsby-plugin-styled-components`,
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          { family: `Tangerine` },
-          { family: `Mr De Haviland` },
-          { family: `Parisienne` },
-        ],
-      },
-    },
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-preload-fonts`,
+    // {
+    //   resolve: `gatsby-plugin-prefetch-google-fonts`,
+    //   options: {
+    //     fonts: [
+    //       { family: `Tangerine` },
+    //       { family: `Mr De Haviland` },
+    //       { family: `Parisienne` },
+    //     ],
+    //   },
+    // },
     {
       resolve: `gatsby-source-cloudinary`,
       options: {
