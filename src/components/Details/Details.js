@@ -65,7 +65,7 @@ export default function Details({ showDirectionsLink }) {
           <AddressSection>
             <div>St. Anthony's of Padua</div>
             <div>50 Revere St, Revere, MA 02151</div>
-            <p>Please arrive before 3pm</p>
+            <p>Please arrive before 2:30pm</p>
             <a
               href="https://www.google.com/maps/dir//st+anthony's+of+padua+revere+ma/@42.3825689,-71.1371168,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e36e00093a3a19:0xd391645fb3c0e3c7!2m2!1d-71.001325!2d42.4183444"
               target="_blank"
@@ -83,6 +83,7 @@ export default function Details({ showDirectionsLink }) {
           <AddressSection>
             <div>Danversport</div>
             <div>161 Elliott St, Danvers, MA 01923</div>
+            <p>Cocktail Hour will begin at 5:30pm</p>
             <a
               href="https://www.google.com/maps/dir//danversport+yacht+club/@42.4515172,-71.3721542,10z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e31156e4010caf:0x395600e845471fed!2m2!1d-70.9171718!2d42.5579733"
               target="_blank"
@@ -113,12 +114,7 @@ export default function Details({ showDirectionsLink }) {
       <FAQContainer>
         <FAQSection>
           <h3>What is the dress code?</h3>
-          <p>The dress code for our wedding is semi-formal/cocktail attire. Ladies should wear cocktail dresses, and gentlemen should wear a suit and tie or a sports coat.</p>
-
-          <br></br>
-
-          <h3>Is transportation provided?</h3>
-          <p>There will be a bus shuttling hotel guests from the hotel to Danversport. Return trips will be provided back to the hotel following the reception. There will be no transportation to and from the church. If you are planning on driving from the reception hall, please be responsible and have a safe driver, and please use your best judgment.</p>
+          <p>The dress code for our wedding is formal attire. Ladies should wear formal dresses and gentlemen should wear a suit and tie or a sports jacket. Please no jeans or casual footwear.</p>
 
           <br></br>
 
@@ -127,18 +123,29 @@ export default function Details({ showDirectionsLink }) {
 
           <br></br>
 
-          <h3>What happens after the ceremony?</h3>
-          <p>After the ceremony, the wedding party will be taking pictures nearby for around an hour. Hotel guests can head to the hotel to pick up a shuttle to the reception hall. Guests may also head straight to the reception hall, where we will be serving finger foods and beverages starting at 5:30 pm.</p>
+          <h3>Is transportation provided?</h3>
+          <p>Transportation to and from the church is not provided. A bus will be shuttling hotel guests from the hotel to Danversport. Return trips will be provided back to the hotel following the reception. * Pickup times will be posted here closer to the wedding day.
+          <br></br>
+          If you are planning on driving from the reception hall, please be responsible and have a safe driver, and please use your best judgment.</p>
 
           <br></br>
 
           <h3>What time should I arrive?</h3>
-          <p>We recommend that you arrive before 2:30pm. That way, we can make sure everyone is on time, and we can get the party started as scheduled! Please note that traffic in this area can be heavy, so please plan your commute with a delay in mind.</p>
+          <p>We recommend that you arrive before 2:30pm at St. Anthony's of Padua. That way, we can make sure everyone is on time, and we can get the party started as scheduled! Please note that traffic in this area can be heavy, so please plan your commute with a delay in mind.</p>
 
           <br></br>
 
           <h3>Where should guests park? Is parking free?</h3>
           <p>There is free parking at the Church, Hotel, and Reception Hall. Once again, if you are driving to and from the reception hall, please be responsible and have a safe driver, and please use your best judgment.</p>
+
+          <br></br>
+
+          <h3>What happens after the ceremony?</h3>
+          <p>After the ceremony, the wedding party will be taking pictures nearby for about an hour. The reception at Danversport will be starting at 5:30pm.
+          <br></br>
+          Hotel guests are invited to the hotel to pick up a shuttle which will transport guests to the reception hall.
+          <br></br>
+          Guests not staying at the hotel may head straight to the reception hall.</p>
         </FAQSection>
       </FAQContainer>
     </div>
