@@ -5,7 +5,7 @@ import { rhythm } from "../../utils/typography"
 const RegistryItemContainer = styled.div`
   text-align: center;
   margin-top: ${rhythm(2)};
-  flex-basis: 100%;
+  flex-basis: 50%;
 
 
   @media screen and (min-width: 601px) {
@@ -21,7 +21,7 @@ const StoreIcon = styled.img`
 export default function RegistryItem({ store, logoUrl, link }) {
   return (
     <RegistryItemContainer>
-      <StoreIcon src={logoUrl} />
+      <a href={link} target="_blank" rel="noreferrer"><StoreIcon src={logoUrl} /></a>
       <h3>{store}</h3>
       <a href={link} target="_blank" rel="noreferrer">View Registry</a>
     </RegistryItemContainer>
