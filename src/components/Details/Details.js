@@ -64,7 +64,7 @@ export default function Details({ showDirectionsLink }) {
           <h4>Ceremony</h4>
           <AddressSection>
             <div>St. Anthony's of Padua</div>
-            <div>50 Revere St, Revere, MA 02151</div>
+            <div>250 Revere St, Revere, MA 02151</div>
             <p>Please arrive before 2:30pm</p>
             <a
               href="https://www.google.com/maps/dir//st+anthony's+of+padua+revere+ma/@42.3825689,-71.1371168,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e36e00093a3a19:0xd391645fb3c0e3c7!2m2!1d-71.001325!2d42.4183444"
