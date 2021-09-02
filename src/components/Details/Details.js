@@ -124,7 +124,7 @@ export default function Details({ showDirectionsLink }) {
           <br></br>
 
           <h3>Is transportation provided?</h3>
-          <p>Transportation to and from the church is not provided. A bus will be shuttling hotel guests from the hotel to Danversport. Return trips will be provided back to the hotel following the reception. * Pickup times will be posted here closer to the wedding day.
+          <p>Transportation to and from the church is not provided. A bus will be shuttling hotel guests from the hotel to Danversport. There will be two pick up times; 4:45pm and 5:15pm at the front of the hotel. Return trips will be provided back to the hotel following the reception at 10:40pm and 11:00pm.
           <br></br>
           If you are planning on driving from the reception hall, please be responsible and have a safe driver, and please use your best judgment.</p>
 
